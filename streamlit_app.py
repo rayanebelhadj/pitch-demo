@@ -103,4 +103,3 @@ if uploaded_file is not None:
     # Enregistrer éventuellement les résultats dans un nouveau fichier CSV
     result_df = pd.DataFrame(results)
     result_df.to_csv("resultats_analyse_sondage.csv", index=False)
-    st.write("Les résultats de l'analyse ont été enregistrés dans 'resultats_analyse_sondage.csv'.")
